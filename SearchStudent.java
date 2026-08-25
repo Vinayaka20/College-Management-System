@@ -180,7 +180,7 @@ public class SearchStudent extends javax.swing.JFrame {
        try{
             model.setRowCount(0);
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/college","root","Vinay@rcb");
+            Connection con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/college","root","your_password");
             String sql="select * from student where Roll_number=?";
             PreparedStatement ptm=con.prepareStatement(sql);
             ptm.setString(1,studentRollNumber);
