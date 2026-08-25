@@ -235,7 +235,7 @@ public class AddStudent extends javax.swing.JFrame {
         Connection con = DriverManager.getConnection(
             "jdbc:mysql://127.0.0.1:3306/college",
             "root",
-            "Vinay@rcb"
+            "your_password"
         );
 
         String sql = "INSERT INTO student VALUES (?, ?, ?)";
