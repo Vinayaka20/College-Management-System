@@ -75,6 +75,25 @@ Connection con = DriverManager.getConnection(
 6. Update the MySQL password in the Java connection code.
 7. Run the project.
 
+
+## Project Screenshots
+
+![Screenshot 1](image.png)
+
+![Screenshot 2](image%20(1).png)
+
+![Screenshot 3](image%20(2).png)
+
+![Screenshot 4](image%20(3).png)
+
+![Screenshot 5](image%20(4).png)
+
+![Screenshot 6](image%20(5).png)
+
+![Screenshot 7](image%20(6).png)
+
+![Screenshot 8](image%20(7).png)
+
 ## Author
 
 Vinayaka Hiremath
