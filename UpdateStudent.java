@@ -247,7 +247,7 @@ public class UpdateStudent extends javax.swing.JFrame {
         Connection con = DriverManager.getConnection(
                 "jdbc:mysql://127.0.0.1:3306/college",
                 "root",
-                "Vinay@rcb"
+                "your_password"
         );
 
         String sql = "SELECT * FROM student WHERE Roll_number=?";
@@ -297,7 +297,7 @@ public class UpdateStudent extends javax.swing.JFrame {
         Connection con = DriverManager.getConnection(
                 "jdbc:mysql://127.0.0.1:3306/college",
                 "root",
-                "Vinay@rcb"
+                "your_password"
         );
 
         String sql = "UPDATE student SET Roll_number=?, Name=?, Class=? "
